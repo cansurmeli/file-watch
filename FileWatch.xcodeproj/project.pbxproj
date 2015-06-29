@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		367BE9E61B41EF9C000B3061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 367BE9E51B41EF9C000B3061 /* AppDelegate.m */; };
+		367BE9E81B41EF9C000B3061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 367BE9E71B41EF9C000B3061 /* main.m */; };
+		367BE9EB1B41EF9C000B3061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367BE9EA1B41EF9C000B3061 /* ViewController.m */; };
+		367BE9EE1B41EF9C000B3061 /* FileWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 367BE9EC1B41EF9C000B3061 /* FileWatch.xcdatamodeld */; };
+		367BE9F01B41EF9C000B3061 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367BE9EF1B41EF9C000B3061 /* Images.xcassets */; };
+		367BE9F31B41EF9C000B3061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367BE9F11B41EF9C000B3061 /* Main.storyboard */; };
+		367BE9FF1B41EF9C000B3061 /* FileWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 367BE9FE1B41EF9C000B3061 /* FileWatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		367BE9F91B41EF9C000B3061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 367BE9D71B41EF9C000B3061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367BE9DE1B41EF9C000B3061;
+			remoteInfo = FileWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		367BE9DF1B41EF9C000B3061 /* FileWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		367BE9E31B41EF9C000B3061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367BE9E41B41EF9C000B3061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		367BE9E51B41EF9C000B3061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		367BE9E71B41EF9C000B3061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		367BE9E91B41EF9C000B3061 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		367BE9EA1B41EF9C000B3061 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		367BE9ED1B41EF9C000B3061 /* FileWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FileWatch.xcdatamodel; sourceTree = "<group>"; };
+		367BE9EF1B41EF9C000B3061 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		367BE9F21B41EF9C000B3061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		367BE9F81B41EF9C000B3061 /* FileWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		367BE9FD1B41EF9C000B3061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367BE9FE1B41EF9C000B3061 /* FileWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileWatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367BE9DC1B41EF9C000B3061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367BE9F51B41EF9C000B3061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		367BE9D61B41EF9C000B3061 = {
+			isa = PBXGroup;
+			children = (
+				367BE9E11B41EF9C000B3061 /* FileWatch */,
+				367BE9FB1B41EF9C000B3061 /* FileWatchTests */,
+				367BE9E01B41EF9C000B3061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		367BE9E01B41EF9C000B3061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				367BE9DF1B41EF9C000B3061 /* FileWatch.app */,
+				367BE9F81B41EF9C000B3061 /* FileWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		367BE9E11B41EF9C000B3061 /* FileWatch */ = {
+			isa = PBXGroup;
+			children = (
+				367BE9E41B41EF9C000B3061 /* AppDelegate.h */,
+				367BE9E51B41EF9C000B3061 /* AppDelegate.m */,
+				367BE9E91B41EF9C000B3061 /* ViewController.h */,
+				367BE9EA1B41EF9C000B3061 /* ViewController.m */,
+				367BE9EF1B41EF9C000B3061 /* Images.xcassets */,
+				367BE9F11B41EF9C000B3061 /* Main.storyboard */,
+				367BE9EC1B41EF9C000B3061 /* FileWatch.xcdatamodeld */,
+				367BE9E21B41EF9C000B3061 /* Supporting Files */,
+			);
+			path = FileWatch;
+			sourceTree = "<group>";
+		};
+		367BE9E21B41EF9C000B3061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				367BE9E31B41EF9C000B3061 /* Info.plist */,
+				367BE9E71B41EF9C000B3061 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		367BE9FB1B41EF9C000B3061 /* FileWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				367BE9FE1B41EF9C000B3061 /* FileWatchTests.m */,
+				367BE9FC1B41EF9C000B3061 /* Supporting Files */,
+			);
+			path = FileWatchTests;
+			sourceTree = "<group>";
+		};
+		367BE9FC1B41EF9C000B3061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				367BE9FD1B41EF9C000B3061 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		367BE9DE1B41EF9C000B3061 /* FileWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367BEA021B41EF9C000B3061 /* Build configuration list for PBXNativeTarget "FileWatch" */;
+			buildPhases = (
+				367BE9DB1B41EF9C000B3061 /* Sources */,
+				367BE9DC1B41EF9C000B3061 /* Frameworks */,
+				367BE9DD1B41EF9C000B3061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileWatch;
+			productName = FileWatch;
+			productReference = 367BE9DF1B41EF9C000B3061 /* FileWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		367BE9F71B41EF9C000B3061 /* FileWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367BEA051B41EF9C000B3061 /* Build configuration list for PBXNativeTarget "FileWatchTests" */;
+			buildPhases = (
+				367BE9F41B41EF9C000B3061 /* Sources */,
+				367BE9F51B41EF9C000B3061 /* Frameworks */,
+				367BE9F61B41EF9C000B3061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				367BE9FA1B41EF9C000B3061 /* PBXTargetDependency */,
+			);
+			name = FileWatchTests;
+			productName = FileWatchTests;
+			productReference = 367BE9F81B41EF9C000B3061 /* FileWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		367BE9D71B41EF9C000B3061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Can Sürmeli";
+				TargetAttributes = {
+					367BE9DE1B41EF9C000B3061 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					367BE9F71B41EF9C000B3061 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 367BE9DE1B41EF9C000B3061;
+					};
+				};
+			};
+			buildConfigurationList = 367BE9DA1B41EF9C000B3061 /* Build configuration list for PBXProject "FileWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 367BE9D61B41EF9C000B3061;
+			productRefGroup = 367BE9E01B41EF9C000B3061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				367BE9DE1B41EF9C000B3061 /* FileWatch */,
+				367BE9F71B41EF9C000B3061 /* FileWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		367BE9DD1B41EF9C000B3061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367BE9F01B41EF9C000B3061 /* Images.xcassets in Resources */,
+				367BE9F31B41EF9C000B3061 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367BE9F61B41EF9C000B3061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367BE9DB1B41EF9C000B3061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367BE9EB1B41EF9C000B3061 /* ViewController.m in Sources */,
+				367BE9EE1B41EF9C000B3061 /* FileWatch.xcdatamodeld in Sources */,
+				367BE9E81B41EF9C000B3061 /* main.m in Sources */,
+				367BE9E61B41EF9C000B3061 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367BE9F41B41EF9C000B3061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367BE9FF1B41EF9C000B3061 /* FileWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		367BE9FA1B41EF9C000B3061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 367BE9DE1B41EF9C000B3061 /* FileWatch */;
+			targetProxy = 367BE9F91B41EF9C000B3061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		367BE9F11B41EF9C000B3061 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				367BE9F21B41EF9C000B3061 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		367BEA001B41EF9C000B3061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		367BEA011B41EF9C000B3061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		367BEA031B41EF9C000B3061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FileWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		367BEA041B41EF9C000B3061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FileWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		367BEA061B41EF9C000B3061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FileWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileWatch.app/Contents/MacOS/FileWatch";
+			};
+			name = Debug;
+		};
+		367BEA071B41EF9C000B3061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FileWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileWatch.app/Contents/MacOS/FileWatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		367BE9DA1B41EF9C000B3061 /* Build configuration list for PBXProject "FileWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367BEA001B41EF9C000B3061 /* Debug */,
+				367BEA011B41EF9C000B3061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367BEA021B41EF9C000B3061 /* Build configuration list for PBXNativeTarget "FileWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367BEA031B41EF9C000B3061 /* Debug */,
+				367BEA041B41EF9C000B3061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		367BEA051B41EF9C000B3061 /* Build configuration list for PBXNativeTarget "FileWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367BEA061B41EF9C000B3061 /* Debug */,
+				367BEA071B41EF9C000B3061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		367BE9EC1B41EF9C000B3061 /* FileWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				367BE9ED1B41EF9C000B3061 /* FileWatch.xcdatamodel */,
+			);
+			currentVersion = 367BE9ED1B41EF9C000B3061 /* FileWatch.xcdatamodel */;
+			path = FileWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 367BE9D71B41EF9C000B3061 /* Project object */;
+}
